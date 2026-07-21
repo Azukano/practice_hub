@@ -18,7 +18,7 @@ defmodule PracticeEnumReduce do
   def add(elem, acc) do
     # This will display every element startin on first element 
     # sample: [10, 4, 5, 6, 11] 10 will be displayed first line then 14 (10 + 4 ) accumulated value
-    IO.inspect acc
+    # IO.inspect acc
     elem + acc
   end
 
